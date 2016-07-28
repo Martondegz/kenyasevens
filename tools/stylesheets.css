@@ -35,8 +35,10 @@
     }
     
     .twin {
-        background-color: #382929;
+        background: linear-gradient( rgba(40, 73, 19, 0.43), rgba(40, 73, 19, 0.43)), url(../images/co.jpg) center center no-repeat;
         height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .row {
@@ -45,6 +47,6 @@
     
     .players {
         color: black;
-        background-color: #3b3b3b;
+        background-color: #382929;
         padding-top: 30px;
     }
