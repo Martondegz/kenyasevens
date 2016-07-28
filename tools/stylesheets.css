@@ -25,6 +25,7 @@
         border-top: 4px dotted #fff;
         border-bottom: 4px dotted #fff;
         padding: 6px 0;
+        color: aqua;
     }
     
     nav {
@@ -34,6 +35,16 @@
     }
     
     .twin {
-        background-color: #610000;
+        background-color: #382929;
         height: 800px;
+    }
+    
+    .row {
+        color: #fff;
+    }
+    
+    .players {
+        color: black;
+        background-color: #3b3b3b;
+        padding-top: 30px;
     }
