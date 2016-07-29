@@ -1,52 +1,56 @@
-    li {
-        text-decoration: none;
-        display: inline;
-    }
-    
-    li a {
-        padding: 50px;
-        font-size: 20px;
-        color: #fff;
-        position: relative;
-        bottom: 50px;
-    }
-    
-    .link-1 {
-        transition: 0.3s ease;
-        background: #000;
-        color: white;
-        padding: 20px 0;
-        margin: 0 20px;
-        border-top: 4px solid #000;
-        border-bottom: 4px solid #000;
-    }
-    
-    .link-1:hover {
-        border-top: 4px dotted #fff;
-        border-bottom: 4px dotted #fff;
-        padding: 6px 0;
-        color: aqua;
-    }
-    
-    nav {
-        text-align: center;
-        padding-top: 150px;
-        background-color: black;
-    }
-    
-    .twin {
-        background: linear-gradient( rgba(40, 73, 19, 0.43), rgba(40, 73, 19, 0.43)), url(../images/co.jpg) center center no-repeat;
-        height: 800px;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .row {
-        color: #fff;
-    }
-    
-    .players {
-        color: black;
-        background-color: #382929;
-        padding-top: 30px;
-    }
+.content {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+li {
+    text-decoration: none;
+    display: inline;
+}
+
+li a {
+    padding: 50px;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    bottom: 50px;
+}
+
+.link-1 {
+    transition: 0.3s ease;
+    background: #000;
+    color: white;
+    padding: 20px 0;
+    margin: 0 20px;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+
+.link-1:hover {
+    border-top: 4px dotted #fff;
+    border-bottom: 4px dotted #fff;
+    padding: 6px 0;
+    color: aqua;
+}
+
+nav {
+    text-align: center;
+    padding-top: 150px;
+    background-color: black;
+}
+
+.twin {
+    background: linear-gradient( rgba(40, 73, 19, 0.43), rgba(40, 73, 19, 0.43)), url(../images/XL.jpg) center center no-repeat;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    color: #fff;
+}
+
+.players {
+    color: black;
+    background-color: #382929;
+    padding-top: 30px;
+}
