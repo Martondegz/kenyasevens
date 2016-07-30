@@ -50,7 +50,10 @@ nav {
 }
 
 .players {
-    color: black;
-    background-color: #382929;
+    color: ;
+    background-image: url(../images/gray_holograph_gradient.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     padding-top: 30px;
 }
