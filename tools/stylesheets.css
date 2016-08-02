@@ -46,13 +46,55 @@ nav {
 }
 
 .row {
-    color: #fff;
+    color: oldlace;
 }
 
 .players {
-    color: ;
-    background-image: url(../images/gray-black-texture-surface-point-background-hd-Wallpaper.jpg);
+    color: oldlace;
+    background: linear-gradient( rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url(../images/gray-black-texture-surface-point-background-hd-Wallpaper.jpg) center center no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 30px;
+    background-attachment: fixed;
+}
+
+.tourn {
+    margin-top: 50px;
+    color: #fff;
+    background-color: #000;
+}
+
+.bottom {
+    background-image: url(../images/index.jpeg);
+    color: cornsilk;
+    height: 200px;
+    margin-top: 25px;
+}
+
+.bottom ul {
+    text-align: center;
+    color: #8e6a06;
+}
+
+.bottom i {
+    position: relative;
+    top: 100px;
+    color: #8e6a06;
+}
+
+.bottom p {
+    color: #8e6a06;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+#sides {
+    transform: rotate(270deg) scale(1) skew(1deg) translate(0px);
+    float: left;
+    position: relative;
+    top: 200px;
+    margin-left: 80px;
+    font-size: 100px;
+    font-family: 'Exo', sans-serif;
 }
